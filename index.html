@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>My Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/0bcc212ea4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ----------------Header----------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Desoigner</p>
+          <h1>Hello, I'm <span>Daniel</span><br />Essel From Ghana</h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------About Me-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/FB_IMG_1670592918288.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+              error facere omnis repellat neque animi autem eaque laboriosam
+              minus recusandae molestiae ipsa asperiores ut tempora temporibus,
+              repellendus eligendi fuga voluptatibus.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Desiging Web/App Interfaces</li>
+                <li><span>Web Development</span><br />Website Building</li>
+                <li>
+                  <span>App Development</span><br />Building Andriod Apps/iOS
+                  Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2006 - 2007</span><br />Training at MEST , Ghana</li>
+                <li>
+                  <span>2008 - 2010</span><br />Lead Instructor for Tech
+                  Training at Aims Global Tech Co.ltd
+                </li>
+                <li>
+                  <span>2011 - 2018</span><br />Taught Technical Drawingn at
+                  Mankessim Senior High Tech Sch.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2008 - 20012</span><br />UI/UX Training at MEST Ghana,
+                  Accra, Ghana
+                </li>
+                <li>
+                  <span>2008 - 2010</span><br />Bsc. Mechanical Technology
+                  Education, Winneba
+                </li>
+                <li>
+                  <span>2011 - 2018</span><br />Entrepreneurship Skills and
+                  Training by GEa, Ghana
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------Services--------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designs</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+              ataskmadm.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+              ataskmadm.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+              ataskmadm.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------Portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/social-app.jpg">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/music-app.jpg">
+            <div class="layer">
+              <h3>Music App App</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/shopping-app.jpg">
+            <div class="layer">
+              <h3>Online Shopping Apps</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+    <!-- ------------------Contact--------------- -->
+     <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p class=""> <i class="fa-solid fa-paper-plane"></i>dessel731@outlook.com</p>
+            <p><i class="fa-duotone fa-solid fa-phone"></i> (+233) 0245258015 / 0542480731</p>
+            <div class="social-icons">
+              <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://x.com"><i class="fa-solid fa-x"></i></a>
+              <a href="https://tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="files/CV - Daniel Essel (1).pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" id="Enter Your Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © DE. Made with <i class="fa-solid fa-heart"></i> by Essel's Tutorial</p>
+      </div>
+     </div>
+  </body>
+</html>
