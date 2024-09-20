@@ -15,7 +15,8 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background-image.jpg);
+    background: #080808;
+    background-image: url(images/Untitled-1.png);
     background-size: cover;
     background-position: center;
     /* background: transparent; */
@@ -395,4 +396,25 @@ form btn2{
     #header{
         background-image: url();
     }
+}
+
+.award-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.award-list div{
+    padding: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s; 
+}
+
+.award-list div img{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 50px;
 }
