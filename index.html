@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>My Portfolio</title>
     <script
       src="https://kit.fontawesome.com/0bcc212ea4.js"
@@ -33,20 +33,19 @@
     </div>
     <!-- -----------------About Me-------------- -->
     <div id="about">
-      <div class="container">
+      <div class="about-container">
         <div class="row">
           <div class="about-col-1">
-            <img src="images/FB_IMG_1670592918288.jpg" />
+            <img src="images/FB_IMG_1670592918288.jpg"/>
           </div>
           <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
+            <h1 class="abt-sub-title">About Me</h1>
             <p>
               I am a junior web developer, professional educator, entrepreneur,
               and IT expert. In addition to these roles, I possess strong soft
               skills in leadership, administration, and management, which enable
               me to work effectively both independently and as part of a team.
-            </p>
-            <br />
+            </p><br />
             <p>
               My diverse experience spans various fields, including education,
               technology, and agriculture. I am eager to embrace new
@@ -55,58 +54,31 @@
               contributing my expertise and continuing to grow in my
               professional journey.
             </p>
-            <div class="tab-titles">
-              <p class="tab-links active-links" onclick="opentab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('experience')">
-                Experience
-              </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li><span>Web Development</span><br />Website Building</li>
-                <li><span>Education</span><br />Teach anything teachable</li>
-                <li>
-                  <span>Entrepreneurship</span><br />Large Scale Cassava and
-                  Maize Farming
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li><span>2006 - 2007</span><br />Training at MEST , Ghana</li>
-                <li>
-                  <span>2008 - 2010</span><br />Lead Instructor for Tech
-                  Training at Aims Global Tech Co.ltd
-                </li>
-                <li>
-                  <span>2011 - 2018</span><br />Taught Technical Drawingn at
-                  Mankessim Senior High Tech Sch.
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>2008 - 20012</span><br />UI/UX Training at MEST Ghana,
-                  Accra, Ghana
-                </li>
-                <li>
-                  <span>2008 - 2010</span><br />Bsc. Mechanical Technology
-                  Education, Winneba
-                </li>
-                <li>
-                  <span>2011 - 2018</span><br />Entrepreneurship Skills and
-                  Training by GEa, Ghana
-                </li>
-              </ul>
+            <div class="about-2">
+              <div>
+                <h3>Skills</h3>
+                <span>UI/UX Designs</span>
+                <span>Web Development</span>
+                <span>Software</span>
+              </div>
+              <div>
+                <h3>Experience</h3>
+                <span>UI/UX Designs</span>
+                <span>Web Development</span>
+                <span>Software</span>
+              </div>
+              <div>
+                <h3>Education</h3>
+                <span>UI/UX Designs</span>
+                <span>Web Development</span>
+                <span>Software</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+          </div>
     <!-- ----------------------------Services--------------- -->
     <div id="services">
       <div class="container">
@@ -116,24 +88,21 @@
             <i class="fa-solid fa-code"></i>
             <h2>Web Development</h2>
             <p>
-              For all your websites and Apps needs, I've got you sorted.I develop and maintain websites/apps.
+              For all your websites and Apps needs, I've got you sorted.I
+              develop and maintain websites/apps.
             </p>
             <a href="#">Learn more</a>
           </div>
           <div>
-            <i class="fa-sharp fa-solid fa-crop"></i>
+            <i class="fa fa-book" aria-hidden="true"></i>
             <h2>Education</h2>
-            <p>
-             I have specialization in teaching technical related courses
-            </p>
+            <p>I have specialization in teaching technical related courses</p>
             <a href="#">Learn more</a>
           </div>
           <div>
-            <i class="fa-brands fa-app-store"></i>
+            <i class="fa fa-leaf" aria-hidden="true"></i>
             <h2>Entrepreneurship</h2>
-            <p>
-              I am into large scal cassava and maize farmming.
-            </p>
+            <p>I am into large scal cassava and maize farmming.</p>
             <a href="#">Learn more</a>
           </div>
         </div>
@@ -184,14 +153,12 @@
         <h1 class="sub-title">My Awards & Certificates</h1>
         <div class="award-list">
           <div>
-           <img src="images/forage Cert.jpg" class="img-1">
+            <img src="images/forage Cert.jpg" class="img-1" />
           </div>
           <div>
-            <img src="images/ibmbage.jpg" alt="">
+            <img src="images/ibmbage.jpg" alt="" />
           </div>
-          <div>
-            
-          </div>
+          <div></div>
         </div>
       </div>
     </div>
@@ -220,7 +187,7 @@
                 ><i class="fa-brands fa-instagram"></i
               ></a>
             </div>
-            <a href="#" download class="btn btn2">Download CV</a>
+            <!-- <a href="#" download class="btn btn2">Download CV</a> -->
           </div>
           <div class="contact-right">
             <form>
@@ -246,8 +213,8 @@
 
       <div class="copyright">
         <p>
-          Copyright © DE. Made with <i class="fa-solid fa-heart"></i> by Essel's
-          Tutorial
+          Copyright © DE. Made with <i class="fa-solid fa-heart"></i> by Mr.
+          Kojo Essel
         </p>
       </div>
     </div>
