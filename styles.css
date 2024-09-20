@@ -59,9 +59,9 @@ nav ul li a::after {
   transition: 0.5s;
 }
 
-nav ul li a:hover::after {
+/* nav ul li a:hover::after {
   width: 100%;
-}
+} */
 
 .header-text {
   margin-top: 20%;
@@ -222,10 +222,10 @@ nav ul li a:hover::after {
     display: inline-block;
   }
   
-  .services-list div:hover {
+  /* .services-list div:hover {
     background: #2600ff;
     transform: translateY(-20px);
-  }
+  } */
   
 /* -------------------Portfolio(Works)--------- */
 #portfolio {
@@ -289,13 +289,13 @@ nav ul li a:hover::after {
   text-align: center;
 }
 
-.work:hover img {
+/* .work:hover img {
   transform: scale(1.1);
-}
+} */
 
-.work:hover .layer {
+/* .work:hover .layer {
   height: 100%;
-}
+} */
 
 .btn {
   display: block;
@@ -309,9 +309,9 @@ nav ul li a:hover::after {
   transition: background 0.5s;
 }
 
-.btn:hover {
+/* .btn:hover {
   background: #2600ff;
-}
+} */
 /* ------------Contacts----------- */
 
 .contact-left {
@@ -345,10 +345,10 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 
-.social-icons a:hover {
+/* .social-icons a:hover {
   color: #2600ff;
   transform: translateY(-5px);
-}
+} */
 
 .btn.btn2 {
   display: inline-block;
