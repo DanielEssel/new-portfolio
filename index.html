@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="script.js" defer></script>
     <title>My Portfolio</title>
     <script
@@ -28,88 +29,58 @@
           </ul>
         </nav>
         <div class="header-text">
-          <p>junior Web Developer, Teacher And Entrepreneur</p>
+          <p>Junior Web Developer, Teacher And Entrepreneur</p>
           <h1>Hello World!, I'm <span>Daniel</span><br />Essel From Ghana</h1>
         </div>
       </div>
     </div>
     <!-- -----------------About Me-------------- -->
-    <div id="about">
-      <div class="about-container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="images/FB_IMG_1670592918288.jpg"/>
-          </div>
-          <div class="about-col-2">
-            <h1 class="abt-sub-title">About Me</h1>
-            <p>
-              I am a junior web developer, professional educator, entrepreneur,
-              and IT expert. In addition to these roles, I possess strong soft
-              skills in leadership, administration, and management, which enable
-              me to work effectively both independently and as part of a team.
-            </p><br />
-            <p>
-              My diverse experience spans various fields, including education,
-              technology, and agriculture. I am eager to embrace new
-              opportunities that will enhance my skills while making a positive
-              impact on individuals and organizations. I look forward to
-              contributing my expertise and continuing to grow in my
-              professional journey.
-            </p>
-            <div class="about-2">
-              <div>
-                <h3>Skills</h3>
-                <span>UI/UX Designs</span>
-                <span>Web Development</span>
-                <span>Software</span>
-              </div>
-              <div>
-                <h3>Experience</h3>
-                <span>UI/UX Designs</span>
-                <span>Web Development</span>
-                <span>Software</span>
-              </div>
-              <div>
-                <h3>Education</h3>
-                <span>UI/UX Designs</span>
-                <span>Web Development</span>
-                <span>Software</span>
-              </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>About Me</title>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6">
+        <div class="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="md:w-1/3">
+                <img src="./images/FB_IMG_1670592918288.jpg" alt="Your Picture" class="object-cover w-full h-full p-4">
             </div>
-          </div>
+            <div class="md:w-2/3 p-6 text-black">
+                <h1 class="text-2xl font-bold mb-2">About Me</h1>
+                <p class="text-gray-700 mb-4">
+                    I am a professionally trained teacher with a strong background in IT, specializing in computer hardware. My diverse experience spans various roles in education and school management, where I focus on student mentorship and effective supervision. I am passionate about creating positive impacts in individuals' lives and actively seek challenging opportunities that allow me to leverage my expertise in both education and technology. With a solid foundation in mechanical technology education, I am equipped to contribute meaningfully in any environment.
+                </p>
+                <h2 class="text-xl font-semibold mb-2">Skills</h2>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Education & Teaching: Lesson planning, curriculum development, and classroom management.</li>
+                    <li>IT Proficiency: Computer hardware and software installation, Microsoft Office Suite, Adobe Photoshop.</li>
+                    <li>Digital Skills: Data entry, digital communications, and basic AI knowledge.</li>
+                    <li>Management & Leadership: Effective communication, team motivation, and transparency in management.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mb-2">Education</h2>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Teaching License, National Teaching Council, Accra, Ghana</li>
+                    <li>BSc. Mechanical Technology Education, University of Education, Winneba (2013 – 2017), Winneba, Ghana</li>
+                    <li>Diploma in Computer Hardware and Software, Hand of Grace Multimedia and IT College (2012 – 2013), Awutu Bawjiase, Ghana</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mb-2 text-black">Experience</h2>
+                <ul class="list-disc list-inside">
+                    <li>Class Teacher, Adventist Preparatory School (2021 – 2023), Awutu Bawjiase, Ghana</li>
+                    <li>Mobile Workstation Operator, National Identification Authority (2019 – 2020), Accra, Ghana</li>
+                    <li>Vocational Teacher, Mankessim Senior High Technical School (2017 – 2018), Akyimfo Mankessim, Ghana</li>
+                    <li>School Manager, Justice Memorial School (2010 – 2012), Awutu Bawjiase, Ghana</li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
-          </div>
-    <!-- ----------------------------Services--------------- -->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Web Development</h2>
-            <p>
-              For all your websites and Apps needs, I've got you sorted.I
-              develop and maintain websites/apps.
-            </p>
-            <a href="#">Learn more</a>
-          </div>
-          <div>
-            <i class="fa fa-book" aria-hidden="true"></i>
-            <h2>Education</h2>
-            <p>I have specialization in teaching technical related courses</p>
-            <a href="#">Learn more</a>
-          </div>
-          <div>
-            <i class="fa fa-leaf" aria-hidden="true"></i>
-            <h2>Entrepreneurship</h2>
-            <p>I am into large scal cassava and maize farmming.</p>
-            <a href="#">Learn more</a>
-          </div>
-        </div>
-      </div>
-    </div>
+</body>
+</html>
     <!-- ---------------Portfolio------------ -->
     <div id="portfolio">
       <div class="container">
